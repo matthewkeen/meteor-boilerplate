@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+imports/.DS_Store
+*.DS_Store*
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
