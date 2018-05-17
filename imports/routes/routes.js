@@ -15,7 +15,7 @@ const onEnterPublicPage = () => {
   }
 };
 const onEnterPrivatePage = () => {
-  if (!Meteor.userId()) {
+  if (!Meteor.userId()) { 
     browserHistory.replace('/');
   }
 };
